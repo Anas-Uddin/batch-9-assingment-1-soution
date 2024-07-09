@@ -2,3 +2,64 @@
 body{
     font-family: "Merriweather", serif;
 }
+/* banner section style */
+.banner-container{
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url("images/Banner\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(96, 91, 91);
+    background-blend-mode: overlay;
+}
+.banner-content{    
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+}
+.banner-content p{
+    font-size: 32px;
+    font-weight: 700;
+}
+.banner-content h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.second-section-container{
+    width: 802px;
+    height: 806px;
+    margin: 0 auto;
+}
+main section div h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+main section div p,h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+main section img{
+    max-width: 700px;
+}
